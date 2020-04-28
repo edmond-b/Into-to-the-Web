@@ -1,5 +1,5 @@
 require 'sinatra'
-
+require 'chromedriver-helper'
 get '/' do
   'Hello World!'
 end
